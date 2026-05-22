@@ -45,7 +45,7 @@ FIAP-HERO/
 
 Antes de executar o jogo, é necessário ter instalado:
 
-- Python 3.10
+- Python 3.11
 - Biblioteca Pygame
 
 ---
