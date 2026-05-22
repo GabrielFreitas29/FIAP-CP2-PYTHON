@@ -13,13 +13,6 @@ A música utilizada no projeto é:
 
 🎵 *Another Brick in the Wall – Pink Floyd*
 
-O projeto foi desenvolvido com foco em:
-- Programação orientada a objetos
-- Manipulação de áudio
-- Renderização gráfica em tempo real
-- Controle de eventos do teclado
-- Lógica de timing e pontuação
-
 ---
 
 # 🖥️ Tecnologias Utilizadas
@@ -44,7 +37,6 @@ FIAP-HERO/
 │       └── black.png
 │
 ├── main.py
-└── README.md
 ```
 
 ---
@@ -53,7 +45,7 @@ FIAP-HERO/
 
 Antes de executar o jogo, é necessário ter instalado:
 
-- Python 3.10 ou superior
+- Python 3.10
 - Biblioteca Pygame
 
 ---
@@ -61,36 +53,6 @@ Antes de executar o jogo, é necessário ter instalado:
 # 📥 Instalação
 
 ## 1️⃣ Clonar o repositório
-
-```bash
-git clone https://github.com/seu-repositorio/fiap-hero.git
-```
-
----
-
-## 2️⃣ Entrar na pasta do projeto
-
-```bash
-cd fiap-hero
-```
-
----
-
-## 3️⃣ Instalar o Pygame
-
-```bash
-pip install pygame
-```
-
----
-
-# ▶️ Como Executar
-
-Execute o arquivo principal:
-
-```bash
-python main.py
-```
 
 ---
 
@@ -105,27 +67,7 @@ python main.py
 | ENTER | Iniciar jogo |
 | P | Pausar |
 | R | Reiniciar |
-| ESC | Voltar ao menu |
-
----
-
-# 🧠 Funcionalidades
-
-✅ Sistema de notas sincronizadas com a música  
-✅ Sistema de combo  
-✅ Sistema de pontuação  
-✅ Barra de vida  
-✅ Feedback visual:
-- PERFECT
-- ÓTIMO
-- OK
-- MISS
-
-✅ Tela de pausa  
-✅ Tela de vitória  
-✅ Tela de game over  
-✅ Efeitos sonoros  
-✅ Interface gráfica estilizada  
+| ESC | Voltar ao menu |  
 
 ---
 
@@ -148,69 +90,6 @@ Quanto maior o combo, maior a pontuação.
 
 ---
 
-# 🧱 Estrutura do Código
-
-O projeto foi dividido em classes principais:
-
-## `Nota`
-Responsável pelas notas que descem pela tela.
-
-## `TextoFeedback`
-Responsável pelos textos animados de feedback.
-
-## `Jogo`
-Controla:
-- lógica do jogo
-- pontuação
-- vida
-- combos
-- pausa
-- spawn das notas
-- vitória e derrota
-
----
-
-# 🎵 Sistema Musical
-
-O mapa de notas foi criado manualmente utilizando:
-- BPM da música
-- Compassos
-- Batidas
-
-```python
-BPM = 99
-BEAT = 60000 / BPM
-COMPASSO = BEAT * 4
-```
-
-As notas são sincronizadas usando milissegundos.
-
----
-
-# 📸 Interface
-
-O jogo possui:
-- menu inicial
-- HUD em tempo real
-- barra de progresso da música
-- barra de vida
-- efeitos de brilho nas colunas
-- feedback visual animado
-
----
-
-# 🚀 Melhorias Futuras
-
-- Adicionar novas músicas
-- Sistema de ranking
-- Seleção de dificuldade
-- Sistema de recordes
-- Mais efeitos visuais
-- Menu de configurações
-- Suporte para controles
-
----
-
 # 👨‍💻 Integrantes
 
 | RM | Nome |
@@ -222,12 +101,6 @@ O jogo possui:
 
 ---
 
-# 📚 Disciplina
-
-Projeto acadêmico desenvolvido para fins educacionais utilizando Python e Pygame.
-
----
-
-# 🎸 “Pink Floyd aprovaria.”
+# 🎸 “Pink Floyd daria nota máxima.”
 
 ```
